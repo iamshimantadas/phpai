@@ -12,7 +12,7 @@ class MyAgent extends Agent
     protected function provider(): AIProviderInterface
     {
         return new Gemini(
-            key: 'AIzaSyDVTsX1JUyxtExDmGfUOvdmVhyqEwwQVg4',
+            key: 'PASTE_YOUR_API_KEY',
             model: 'gemini-2.0-flash',
         );
     }
